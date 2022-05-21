@@ -1,3 +1,15 @@
+:root{
+    --primary-font-family:'Roboto', sans-serif;
+    --secondary-font-family:'Raleway', sans-serif;
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --background-modal-btn-color: #188CE8;
+    --background-dark-color: #2F303A;
+    --auxiliary-light-text-color: #FFFFFF;
+    --auxiliary-dark-text-color: #000000;
+}
+
 .list{
     list-style: none;
 }
@@ -5,9 +17,182 @@
 .link{
     text-decoration: none;
 }
+.body{
+    font-family: var(--primary-font-family);
+    color:var(--primary-text-color);
+}
 /* HEADER */
+.logo{
+        font-family:var(--secondary-font-family);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);
+}
+.logo-dark{
+    color: var(--auxiliary-dark-text-color);
+}
+.logo-light{
+    color: var(--auxiliary-light-text-color);
+}
 
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--accent-color);
+}
+
+.menu-link.current{
+    color: var(--accent-color);
+}
+
+.page-header-contacts{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+}
+
+.page-header-mail:hover,
+.page-header-mail:focus{
+    color: var(--accent-color);
+}
+
+.page-header-tel:hover,
+.page-header-tel:focus{
+    color: var(--accent-color);
+}
+.page-header-mail,
+.page-header-tel{
+    color:var(--secondary-text-color)
+}
 
 /* HERO */
 
+.hero{
+    background-color: var(--background-dark-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--auxiliary-light-text-color);
+}
+
+.modal-btn{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+         color: var(--auxiliary-light-text-color);
+         background-color:var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+    color: var(--auxiliary-light-text-color);
+    background-color: var(--background-modal-btn-color);
+}
+
 /* FEATURES */
+
+.features-list-item-title{
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.features-list-text{
+        font-family: var(--primary-font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+
+/* ABOUT */
+
+.title{
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+     }
+
+/* OUR TEAM */
+.employees-name{
+        font-family: var(--primary-font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+      }
+
+.employees-position{
+        font-family: var(--primary-font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+}
+.employees-card{
+    background-color: var(--auxiliary-light-text-color);
+}
+
+/* FOOTER */
+.footer{
+    background-color: var(--background-dark-color);
+}
+.contact-list{
+        font-family: var(--primary-font-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+}
+.contact-list-link:hover,
+.contact-list-link:focus{
+    color: var(--accent-color);
+}
+.map{
+    color: var(--auxiliary-light-text-color);
+}
+.connection{
+    color: rgba(255, 255,255, 0.06);
+}
+/* PORTFOLIO */
+
+.project-modal-btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: var(--auxiliary-dark-text-color);
+    }
+
+.project-modal-btn:hover,
+.project-modal-btn:focus{
+    color: var(--auxiliary-light-text-color); 
+    background-color: var(--accent-color);
+}

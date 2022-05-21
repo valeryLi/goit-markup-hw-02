@@ -12,19 +12,18 @@
     rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="body">
     <!-- HEADER -->
     <header class="page-header">
         <nav class="navigation">
             <a class="logo link" href="/" lang="en">
-                WebStudio
-            </a>
+                Web<span class="logo-dark">Studio</span></a>
             <ul class="menu list">
                 <li class="menu-item">
                     <a class="menu-link link" href="">Студия</a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link link" href="">Портфолио</a>
+                    <a class="menu-link link current" href="">Портфолио</a>
                 </li>
                 <li class="menu-item">
                     <a class="menu-link link"href="">Контакты</a>
@@ -44,56 +43,56 @@
     <!-- PORTFOLIO -->
     <section class="portfolio-section">
         <h1 class="Invisible-title">Портфолио</h1>
-        <ul class="button-list list">
-            <li class="button-list-item"> <button type="button">Все</button></li>
-            <li class="button-list-item"> <button type="button">Веб-сайты</button></li>
-            <li class="button-list-item"> <button type="button">Приложения</button></li>
-            <li class="button-list-item"> <button type="button">Дизайн</button></li>
-            <li class="button-list-item"> <button type="button">Маркетинг</button></li>
+        <ul class="project-btn-list list">
+            <li class="project-list-item"> <button class="project-modal-btn" type="button">Все</button></li>
+            <li class="project-list-item"> <button class="project-modal-btn" type="button">Веб-сайты</button></li>
+            <li class="project-list-item"> <button class="project-modal-btn" type="button">Приложения</button></li>
+            <li class="project-list-item"> <button class="project-modal-btn" type="button">Дизайн</button></li>
+            <li class="project-list-item"> <button class="project-modal-btn" type="button">Маркетинг</button></li>
         </ul>
         <ul class="project-list list">
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/technocrack-web.jpg" alt="Ноутбук с веб-сайтом">
+                <img class="project-img" src="./images/portfolio/technocrack-web.jpg" alt="Ноутбук с веб-сайтом" width="370" height="290" >
                 <h2 class="project-name">Технокряк</h2>
                 <p class="project-function">Веб-сайт</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/poster-new-orlean.jpg" alt="Постер">
+                <img class="project-img" src="./images/portfolio/poster-new-orlean.jpg" alt="Постер" width="370" height="290" >
                 <h2 class="project-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                 <p class="project-function">Дизайн</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/seafood.jpg" alt="Название ресторана">
+                <img class="project-img" src="./images/portfolio/seafood.jpg" alt="Название ресторана" width="370" height="290" >
                 <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
                 <p class="project-function">Приложение</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/project-prime.jpg" alt="Наушники">
+                <img class="project-img" src="./images/portfolio/project-prime.jpg" alt="Наушники" width="370" height="290" >
                 <h2 class="project-name">Проект <span lang="en">Prime</span></h2>
                 <p class="project-function">Маркетинг</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/project-boxes.jpg" alt="Две коробки">
+                <img class="project-img" src="./images/portfolio/project-boxes.jpg" alt="Две коробки" width="370" height="290" >
                 <h2 class="project-name">Проект <span lang="en">Boxes</span></h2>
                 <p class="project-function">Приложение</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/inspiration-web.jpg" alt="Монитор">
+                <img class="project-img" src="./images/portfolio/inspiration-web.jpg" alt="Монитор" width="370" height="290" >
                 <h2 class="project-name" lang="en">Inspiration has no Borders</h2>
                 <p class="project-function">Веб-сайт</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/limited-edition.jpg" alt="Открытая книга">
+                <img class="project-img" src="./images/portfolio/limited-edition.jpg" alt="Открытая книга" width="370" height="290" >
                 <h2 class="project-name">Издание <span lang="en">Limited Edition</span></h2>
                 <p class="project-function">Дизайн</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/project-lab.jpg" alt="Бирка">
+                <img class="project-img" src="./images/portfolio/project-lab.jpg" alt="Бирка" width="370" height="290" >
                 <h2 class="project-name">Проект <span lang="en">LAB</span></h2>
                 <p class="project-function">Маркетинг</p>
             </li>
             <li class="project-list-item">
-                <img class="project-img" src="./images/portfolio/growing-bisness-app.jpg" alt="Печатает на ноутбуке">
+                <img class="project-img" src="./images/portfolio/growing-bisness-app.jpg" alt="Печатает на ноутбуке" width="370" height="290" >
                 <h2 class="project-name" lang="en">Growing Business</h2>
                 <p class="project-function">Приложение</p>
             </li>
@@ -101,20 +100,20 @@
     </section>
 </main>
     <footer class="footer">
-        <a class="logo link" href="/" lang="en">WebStudio</a>
-        <!-- CONTACT INFORMATION -->
+            <a class="logo link" href="/" lang="en">Web<span class="logo-light">Studio</span></a>
+            <!-- CONTACT INFORMATION -->
         <address class="contact-info">
             <ul class="contact-list list">
-                <li class="contact-list-item">
-                    <a class="contact-list-link link" href="https://goo.gl/maps/mqFkWckFCeggj8cy6" target="_blank" rel="noopener noreferrer">г. Киев,
+                <li class="contact-list-item"> 
+                    <a class="contact-list-link link map" href="https://goo.gl/maps/mqFkWckFCeggj8cy6" target="_blank" rel="noopener noreferrer">г. Киев,
                         пр-т
                         Леси Украинки, 26</a>
                 </li>
                 <li class="contact-list-item">
-                    <a  class="contact-list-link link"href="mailto:info@example.com">info@example.com</a>
+                    <a  class="contact-list-link link connection"href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li class="contact-list-item">
-                    <a  class="contact-list-link link"href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a  class="contact-list-link link connection"href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
